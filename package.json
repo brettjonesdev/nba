@@ -1,6 +1,6 @@
 {
   "name": "nba-hack",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A temporary fork of Nick Bottomley's great nba package, consisting of version 0.4.0 plus fixes for recent changes to stats.nba.com. Didn't have time to update to latest version. Don't judge me.",
   "repository": "https://github.com/brettjonesdev/nba.git",
   "main": "./lib",
