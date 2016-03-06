@@ -1,8 +1,8 @@
 {
-  "name": "nba",
-  "version": "0.4.0",
-  "description": "A Node.js wrapper around the NBA's API",
-  "repository": "https://github.com/nickb1080/nba.git",
+  "name": "nba-hack",
+  "version": "0.0.1",
+  "description": "A temporary fork of Nick Bottomley's great nba package, consisting of version 0.4.0 plus fixes for recent changes to stats.nba.com. Didn't have time to update to latest version. Don't judge me.",
+  "repository": "https://github.com/brettjonesdev/nba.git",
   "main": "index.js",
   "scripts": {
     "update-teams": "node ./scripts/teams",
@@ -18,7 +18,7 @@
     "lint": "jshint ./lib/*.js",
     "test": "mocha -R spec ./test/test.js"
   },
-  "author": "Nick Bottomley",
+  "author": "Brett Jones",
   "license": "MIT",
   "dependencies": {
     "demethodize": "^0.2.0",
